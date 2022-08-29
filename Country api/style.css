@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+#input-search{
+    margin-right: 20px;
+    width: 60%;
+    height: 30px;    
+}
+
+#btn{
+    height: 30px;
+}
+
+.hr{
+    height: 5px;
+    background-color: red;
+}
+
+.details{
+    margin: 30px;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+#country {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.country-card {
+    height: 300px;
+    width: 230px;
+    border: 3px solid lightgreen;
+    padding: 20px;
+    margin: 30px;
+
+
+}
+
+.flag{
+    height: auto;
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+   
+    text-align: center;
+    background-color: gray;
+    color: white;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px;
+}
