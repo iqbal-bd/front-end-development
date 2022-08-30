@@ -9,3 +9,11 @@
     padding: 20px;
     list-style: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .ul {
+      background-color: lightgray;
+      display: flex;
+      flex-direction: column;
+    }
+  }
