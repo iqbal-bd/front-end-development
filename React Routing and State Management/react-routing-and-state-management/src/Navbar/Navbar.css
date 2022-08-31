@@ -1,0 +1,15 @@
+.navbar{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+li{
+    display:flex;
+    list-style: none;
+    padding: 0 20px;
+    justify-content:center;
+}
