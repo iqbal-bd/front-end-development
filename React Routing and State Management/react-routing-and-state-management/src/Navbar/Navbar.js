@@ -24,15 +24,7 @@ function NavScrollExample() {
                     <li><NavLink className="navbar" style = {({isActive}) => {return{color: isActive ? 'blue' : ''}}} to="/home">Home</NavLink></li>
                     <li><NavLink className="navbar"  style = {({isActive}) => {return { color:  isActive ? 'blue': ""}}} to="employee">Employee</NavLink></li>
           </Nav>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>
